@@ -1,0 +1,66 @@
+html {
+  display: block;
+}
+body {
+  display: block;
+  margin: 0px;
+  padding:0px;
+}
+header{
+    height: 42px;
+    background-color: #CA0007;
+    line-height: 42px;
+}
+#logo {
+    color: #FFF;
+    margin-left: 87px;
+    font-size: 20px;
+    float: left;
+}
+#word{
+    color: #FFF;
+    float: right;
+    margin-right: 100px;
+    font-size: 0px;
+}
+#word li.current {
+    background-color: #FFF;
+}
+#word li{
+    display: inline-block;
+    padding: 0 21px;
+    font-size: 10px;
+}
+#word li.current>a {
+  color: #CA0007;
+  text-decoration: none;
+}
+#word li>a {
+  color: #FFF;
+}
+#gallery{
+    height: 300px;
+    background-color: #66CEEC;
+    height: 267px;
+    position: relative;
+}
+#gallery .pics{
+    color:#FFF;
+    position:absolute;
+    font-size:50px;
+    top:100px;
+    left:150px;
+}
+#gallery .bar{
+    position:absolute;
+    top: 218px;
+    left: 113px;
+}
+#gallery .bar li{
+    display:inline-block;
+    border-top:3px solid #FFF;
+    width:25px;
+}
+#gallery .bar li.current{
+    border-color:#CA0007;
+}

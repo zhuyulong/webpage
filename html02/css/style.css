@@ -1,0 +1,75 @@
+header{
+	background-color: #100F0F;
+	height: 71px;
+	width:102%;
+	margin-top:-7px;
+	margin-left:-8px;
+}
+#logo{
+	float:left;
+	font-size:21px;
+	color:#FFFFFF;
+	height:20px;
+	width:20px;
+	font-weight: bold; /*字体的宽度*/
+	padding-left:142px;
+	margin-top:23px;
+}
+#word{
+	color: #FFF;
+	float: left;
+	height:71px;
+	width:649px;
+	margin-right: 100px;
+	font-size: 0px;
+	margin-left:345px;
+}
+#word .myword{
+	list-style:none;
+	color:#17B375;
+	font-size:20px;
+	padding:21px 20px;
+}
+#word li{
+	float:left;
+	font-size:18px;
+	display:inline-block;
+	padding:21px 12px;
+}
+#word li>a{
+	color:#FFFFFF;
+}
+#padd{
+	float:left;
+	height:593px;
+	width:100%;
+	background:red;
+}
+#padd  img{
+	height: 595px;
+	width: 1347px;
+}
+#padd .word1{
+	position: absolute;
+	top: 275px;
+    left: 217px;
+    padding:52px 295px;
+	background:red;
+}
+#padd .word1 ul li{
+	position:absolute;
+	float: left;
+	margin-left:-336px;
+	margin-top:-84px;
+	padding:62px 39px;
+	color:#FFFFFF;
+	font-size:19px;
+	list-style:none;
+}
+#padd .word1 .firstword{
+	list-style:none;
+	position:absolute;
+	font-size:30px;
+	padding:22px 35px;
+	color:#FFFFFF;
+}

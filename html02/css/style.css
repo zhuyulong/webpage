@@ -36,6 +36,9 @@ header{
 	display:inline-block;
 	padding:21px 12px;
 }
+#word li a:hover{ /* 给导航栏的字体点击变色*/
+	color:blue;
+}
 #word li>a{
 	color:#FFFFFF;
 }
@@ -54,7 +57,6 @@ header{
 	top: 275px;
     left: 217px;
     padding:52px 295px;
-	background:red;
 }
 #padd .word1 ul li{
 	position:absolute;
@@ -72,4 +74,151 @@ header{
 	font-size:30px;
 	padding:22px 35px;
 	color:#FFFFFF;
+}
+#padd .word1 .seword{
+	position:absolute;
+	font-size:26px;
+	padding:80px 39px;
+}
+#padd .word1 .seword a:hover{
+	color:#FFFFFF;
+}
+#padd .word1 .thword{
+	position:absolute;
+	font-size:26px;
+	padding:80px 217px;
+}
+#padd .word1 .thword a:hover{
+	color:#FFFFFF;
+}
+#word-b{
+	float:left;
+	background:#A29898;
+	height: 595px;
+	width: 1347px;
+}
+#word-b .word2{
+	position:absolute;
+	float: left;
+	height:63px;
+	width:235px;
+	margin-top: 54px;
+	margin-left: 135px;
+}
+#word-b .word2 p{
+	float: left;
+	margin-top:20px;
+	margin-left:3px;
+	font-size:26px;
+	font-weight:bold;
+}
+#word-b .word3{
+	float: left;
+	height:445px;
+	width:610px;
+	margin-top: 117px;
+	margin-left:135px;
+}
+#word-b .word3 p{
+	font-size: 17px;
+	margin-top: 47px;
+	margin-left: 10px;
+}
+#word-b .word3 .word-pic ul li {
+	display:inline-block;
+	margin-top:31px;
+	margin-left:33px;
+	font-size:36px;
+}
+#word-b .word4{
+	float: right;
+	height: 446px;
+	width: 440px;
+	margin-top: 67px;
+	margin-right: 107px;
+}
+#word-b .word4 .word4-1{
+	float: left;
+	height: 121px;
+	width: 325px;
+	margin-top: 42px;
+	margin-left: 31px;
+}
+#word-b .word4 .word4-1 ul li{
+	margin-top: 7px;
+	margin-left: 6px;
+	font-size: 16px;
+}
+#word-b .word4 .word4-2{
+	float: left;
+	height: 121px;
+	width: 325px;
+	margin-top: 23px;
+	margin-left: 31px;
+}
+#word-b .word4 .word4-3{
+	float: left;
+	height: 121px;
+	width: 325px;
+	margin-top: 13px;
+	margin-left: 31px;
+}
+#word-b .word4 .word4-2 ul li{
+	margin-top: 10px;
+	margin-left: 4px;
+	font-size: 15px;
+}
+#word-b .word4 .word4-3 ul li{
+	margin-top: 8px;
+	margin-left: px;
+	font-size: 15px;
+}
+#word-c{
+	float:left;
+	height: 595px;
+	width: 1347px;
+}
+#word-c .word5{
+	display:absolute;
+	float: left;
+	height: 49px;
+	width: 236px;
+	margin-top: 60px;
+	margin-left: 132px;
+}
+#word-c .word5 p{
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 11px;
+	margin-left: 13px;
+}
+#word-c .word5-pic{
+	float: left;
+	height: 321px;
+	width: 1043px;
+	margin-top: 165px;
+	margin-left: -217px;
+}
+#word-c .word5-pic ul li{
+	border: 1px solid #aaa;
+	margin-left: 190px;
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+#word-c .word5-pic ul li img{
+	height:246px;
+	width:200px;
+	margin-top:-1px;
+	margin-left:-3px;
+}
+#word-d{
+	background:#000000;
+	float: left;
+  	height: 77px;
+  	width: 1347px;
+}
+#word-d p {
+  padding-left: 300px;
+  color: #FFFFFF;
 }
